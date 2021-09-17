@@ -11,7 +11,6 @@ body {
 
 .container {
   height: 100vh;
-  /* width: 100vw; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,6 +38,10 @@ button {
 
 button:hover {
   border-bottom: 5px solid #dd2e71;
+}
+
+.disableHover {
+  pointer-events: none;
 }
 
 button:active {
